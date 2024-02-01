@@ -10,10 +10,10 @@ B2 = np.array([[6], [2], [9]])
 # c)
 A3 = np.array([[1, 1, 3], [3, 1, 1], [2, 1, 2]])
 B3 = np.array([[-1], [5], [2]])
-
+# a):n käänteismatriisilla kertominen
 result1 = la.inv(A1).dot(B1)
 X1, Y1 = result1[0], result1[1]
-
+# b):n käänteismatriisilla kertominen
 result2 = la.inv(A2).dot(B2)
 X2, Y2, Z2 = result2[0], result2[1], result2[2]
 
